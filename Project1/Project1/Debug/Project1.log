@@ -1,42 +1,18 @@
-﻿生成启动时间为 2018/9/2 17:05:01。
+﻿生成启动时间为 2018/9/6 22:14:12。
      1>项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp main.cpp
+         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp main.cpp
          main.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\main.cpp(11): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
-         d:\program files\vs2015pro\vc\include\ostream(497): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
-         d:\program files\vs2015pro\vc\include\ostream(477): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
-         d:\program files\vs2015pro\vc\include\ostream(457): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
-         d:\program files\vs2015pro\vc\include\ostream(437): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
-         d:\program files\vs2015pro\vc\include\ostream(417): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
-         d:\program files\vs2015pro\vc\include\ostream(396): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
-         d:\program files\vs2015pro\vc\include\ostream(376): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
-         d:\program files\vs2015pro\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
-         d:\program files\vs2015pro\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
-         d:\program files\vs2015pro\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
-         d:\program files\vs2015pro\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
-         d:\program files\vs2015pro\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
-         d:\program files\vs2015pro\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
-         d:\program files\vs2015pro\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
-         d:\program files\vs2015pro\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
-         d:\program files\vs2015pro\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
-         d:\program files\vs2015pro\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
-         d:\program files\vs2015pro\vc\include\ostream(1021): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
-         d:\program files\vs2015pro\vc\include\ostream(983): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
-                 with
-                 [
-                     _Ty=std::string
-                 ]
-         d:\program files\vs2015pro\vc\include\ostream(973): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
-         d:\program files\vs2015pro\vc\include\ostream(966): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
-         d:\program files\vs2015pro\vc\include\ostream(959): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
-         d:\program files\vs2015pro\vc\include\ostream(952): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
-         d:\program files\vs2015pro\vc\include\ostream(826): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
-         d:\program files\vs2015pro\vc\include\ostream(779): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
-         d:\program files\vs2015pro\vc\include\ostream(741): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
-         d:\program files\vs2015pro\vc\include\ostream(694): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
-         d:\program files\vs2015pro\workspace\project1\project1\project1\main.cpp(11): note: 尝试匹配参数列表“(std::ostream, std::string)”时
+         chapter4.cpp
          chapter3.cpp
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(299): warning C4838: 从“double”转换到“float”需要收缩转换
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(299): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(287): warning C4101: “float_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(284): warning C4101: “char_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(288): warning C4101: “double_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(285): warning C4101: “long_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(440): warning C4302: “类型转换”: 从“float *”到“unsigned char”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(498): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
          chapter2.cpp
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
@@ -46,9 +22,15 @@
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(54): warning C4172: 返回局部变量或临时变量的地址: result
-     1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(55): warning C4172: 返回局部变量或临时变量的地址: result
+       Link:
+         D:\Program Files\VS2015Pro\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\chapter2.obj
+         Debug\chapter3.obj
+         Debug\chapter4.obj
+         Debug\main.obj
+         Project1.vcxproj -> D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe
+     1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作。
 
-生成失败。
+已成功生成。
 
-已用时间 00:00:01.44
+已用时间 00:00:01.51
