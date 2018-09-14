@@ -1,3 +1,6 @@
+#ifndef chapter2_H
+#define chapter2_H
+
 #pragma once
 #include <iostream>
 #include <stdlib.h>
@@ -13,3 +16,10 @@ void chapter2_7(string filename);
 void chapter2_8(void);
 void chapter2_9(void);
 void chapter2_10(void);
+
+
+#endif //!chapter2_H
+
+
+
+

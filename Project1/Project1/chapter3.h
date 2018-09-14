@@ -1,7 +1,9 @@
+#ifndef chapter3_H
+#define chapter3_H
 #pragma once
 #include <iostream>
 #include <stdlib.h>
-#include <string>
+#include <string.h>
 using namespace std;
 void chapter3_4(void);
 float* chapter3_5(float x, float y, float z);
@@ -35,3 +37,4 @@ void chapter3_28(double *dou_pointer, int size);
 int chapter3_32_1(double d_num);
 void chapter3_32(void);
 float chapter3_33_1(char c);
+#endif//!cahpter3_H
