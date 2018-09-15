@@ -1,8 +1,10 @@
-﻿生成启动时间为 2018/9/14 8:27:01。
+﻿生成启动时间为 2018/9/15 9:32:00。
      1>项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp main.cpp
+         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp chapter5.cpp main.cpp
          main.cpp
+         chapter5.cpp
+     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter5.cpp(155): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
          chapter4.cpp
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter4.cpp(373): warning C4305: “=”: 从“double”到“float”截断
          chapter3.cpp
@@ -28,10 +30,11 @@
          D:\Program Files\VS2015Pro\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\chapter2.obj
          Debug\chapter3.obj
          Debug\chapter4.obj
+         Debug\chapter5.obj
          Debug\main.obj
          Project1.vcxproj -> D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe
      1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:02.68
+已用时间 00:00:02.01
