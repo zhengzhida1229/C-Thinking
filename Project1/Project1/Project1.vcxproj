@@ -122,6 +122,7 @@
     <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="chapter4.cpp" />
     <ClCompile Include="chapter5.cpp" />
+    <ClCompile Include="chapter6.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +130,7 @@
     <ClInclude Include="chapter3.h" />
     <ClInclude Include="chapter4.h" />
     <ClInclude Include="chapter5.h" />
+    <ClInclude Include="chapter6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

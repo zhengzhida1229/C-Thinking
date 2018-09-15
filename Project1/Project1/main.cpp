@@ -1,12 +1,12 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
-#include "chapter5.h"
+#include "chapter6.h"
 using namespace std;
 #define counter 10
 
 void main()
 {
-	chapter5_8();
+	chapter6_7();
 	system("pause");
 }
