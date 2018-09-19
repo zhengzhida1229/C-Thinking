@@ -1,10 +1,9 @@
-﻿生成启动时间为 2018/9/15 20:47:55。
+﻿生成启动时间为 2018/9/19 19:01:05。
      1>项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“d:\program files\vs2015pro\workspace\project1\project1\project1\debug\chapter4.obj”正由另一进程使用，因此该进程无法访问此文件。
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“d:\program files\vs2015pro\workspace\project1\project1\project1\debug\project1.tlog\cl.read.1.tlog”正由另一进程使用，因此该进程无法访问此文件。
      1>ClCompile:
-         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp chapter5.cpp chapter6.cpp main.cpp
+         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp chapter5.cpp chapter6.cpp chapter7.cpp main.cpp
          main.cpp
+         chapter7.cpp
          chapter6.cpp
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter6.cpp(32): warning C4305: “=”: 从“double”到“float”截断
      1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter6.cpp(44): warning C4305: “=”: 从“double”到“float”截断
@@ -38,10 +37,11 @@
          Debug\chapter4.obj
          Debug\chapter5.obj
          Debug\chapter6.obj
+         Debug\chapter7.obj
          Debug\main.obj
          Project1.vcxproj -> D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe
      1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:02.35
+已用时间 00:00:02.72
