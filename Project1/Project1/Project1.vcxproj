@@ -118,6 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chapter10.cpp" />
+    <ClCompile Include="chapter11.cpp" />
     <ClCompile Include="chapter2.cpp" />
     <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="chapter4.cpp" />
@@ -127,8 +129,11 @@
     <ClCompile Include="chapter8.cpp" />
     <ClCompile Include="chapter9.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OverridingAmbiguity.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter10.h" />
+    <ClInclude Include="chapter11.h" />
     <ClInclude Include="chapter2.h" />
     <ClInclude Include="chapter3.h" />
     <ClInclude Include="chapter4.h" />
@@ -137,7 +142,13 @@
     <ClInclude Include="chapter7.h" />
     <ClInclude Include="chapter8.h" />
     <ClInclude Include="chapter9.h" />
+    <ClInclude Include="mynames.h" />
+    <ClInclude Include="mynamespace1.h" />
+    <ClInclude Include="NamespaceInt.h" />
+    <ClInclude Include="NamespaceMath.h" />
+    <ClInclude Include="NamespaceOverriding2.h" />
     <ClInclude Include="require.h" />
+    <ClInclude Include="unnamespace.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

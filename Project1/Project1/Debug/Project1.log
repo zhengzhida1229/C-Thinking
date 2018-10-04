@@ -1,43 +1,50 @@
-﻿生成启动时间为 2018/10/2 10:20:28。
-     1>项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
+﻿生成启动时间为 2018/10/4 9:12:16。
+     1>项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter2.cpp chapter3.cpp chapter4.cpp chapter5.cpp chapter6.cpp chapter7.cpp chapter8.cpp chapter9.cpp main.cpp
+         D:\Program Files\VS2015Pro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chapter10.cpp chapter11.cpp chapter2.cpp chapter3.cpp chapter4.cpp chapter5.cpp chapter6.cpp chapter7.cpp chapter8.cpp chapter9.cpp main.cpp OverridingAmbiguity.cpp
+         OverridingAmbiguity.cpp
          main.cpp
          chapter9.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter9.cpp(20): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter9.cpp(20): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
          chapter8.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter8.cpp(61): warning C4101: “con_lon_poin2”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter8.cpp(61): warning C4101: “con_lon_poin2”: 未引用的局部变量
          chapter7.cpp
          chapter6.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter6.cpp(32): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter6.cpp(44): warning C4305: “=”: 从“double”到“float”截断
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter6.cpp(55): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter6.cpp(32): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter6.cpp(44): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter6.cpp(55): warning C4305: “=”: 从“double”到“float”截断
          chapter5.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter5.cpp(155): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter5.cpp(155): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
          chapter4.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter4.cpp(373): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter4.cpp(373): warning C4305: “=”: 从“double”到“float”截断
          chapter3.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(299): warning C4838: 从“double”转换到“float”需要收缩转换
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(299): warning C4305: “初始化”: 从“double”到“float”截断
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(287): warning C4101: “float_size”: 未引用的局部变量
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(284): warning C4101: “char_size”: 未引用的局部变量
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(288): warning C4101: “double_size”: 未引用的局部变量
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(285): warning C4101: “long_size”: 未引用的局部变量
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(440): warning C4302: “类型转换”: 从“float *”到“unsigned char”截断
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(498): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(299): warning C4838: 从“double”转换到“float”需要收缩转换
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(299): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(287): warning C4101: “float_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(284): warning C4101: “char_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(288): warning C4101: “double_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(285): warning C4101: “long_size”: 未引用的局部变量
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(440): warning C4302: “类型转换”: 从“float *”到“unsigned char”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(498): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
          chapter2.cpp
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter2.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter2.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+         chapter11.cpp
+         chapter10.cpp
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter10.cpp(33): warning C4101: “int_num”: 未引用的局部变量
          正在生成代码...
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter3.cpp(55): warning C4172: 返回局部变量或临时变量的地址: result
-     1>d:\program files\vs2015pro\workspace\project1\project1\project1\chapter9.cpp(161): warning C4715: “color::setHue”: 不是所有的控件路径都返回值
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter10.cpp(30): warning C4715: “chapter10_1_1”: 不是所有的控件路径都返回值
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter3.cpp(55): warning C4172: 返回局部变量或临时变量的地址: result
+     1>d:\program files\vs2015pro\workspace\project1\project1\chapter9.cpp(161): warning C4715: “color::setHue”: 不是所有的控件路径都返回值
        Link:
-         D:\Program Files\VS2015Pro\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\chapter2.obj
+         D:\Program Files\VS2015Pro\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\VS2015Pro\WorkSpace\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\chapter10.obj
+         Debug\chapter11.obj
+         Debug\chapter2.obj
          Debug\chapter3.obj
          Debug\chapter4.obj
          Debug\chapter5.obj
@@ -46,9 +53,10 @@
          Debug\chapter8.obj
          Debug\chapter9.obj
          Debug\main.obj
-         Project1.vcxproj -> D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Debug\Project1.exe
-     1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作。
+         Debug\OverridingAmbiguity.obj
+         Project1.vcxproj -> D:\Program Files\VS2015Pro\WorkSpace\Project1\Debug\Project1.exe
+     1>已完成生成项目“D:\Program Files\VS2015Pro\WorkSpace\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:03.44
+已用时间 00:00:04.14

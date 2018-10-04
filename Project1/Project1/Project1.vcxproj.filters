@@ -42,6 +42,15 @@
     <ClCompile Include="chapter9.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OverridingAmbiguity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter2.h">
@@ -69,6 +78,30 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="require.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mynames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mynamespace1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unnamespace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NamespaceMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NamespaceOverriding2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NamespaceInt.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
